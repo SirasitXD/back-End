@@ -12,7 +12,7 @@ mongoose.connect(
 
 const Book = mongoose.model("Book",{
     id: {
-        type:Number,
+        type: Number,
         unique: true,
         required: true,
     },
